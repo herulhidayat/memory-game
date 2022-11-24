@@ -1,0 +1,18 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+button {
+  background: aquamarine;
+  border: 0 solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(91, 176, 148);
+  color: black;
+}

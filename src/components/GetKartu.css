@@ -1,0 +1,8 @@
+.kartu .ace{
+    transform: rotateY(90deg);
+    position: absolute;
+}
+
+.flipped .ace{
+    transform: rotateY(0deg);
+}

@@ -4,15 +4,26 @@
 }
 
 button {
-  background: aquamarine;
+  background: rgb(183, 50, 50);
   border: 0 solid;
   border-radius: 10px;
-  padding: 5px 10px;
-  color: black;
+  padding: 10px 20px;
+  color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background: rgb(91, 176, 148);
-  color: black;
+  background: rgb(155, 42, 42);
+  color: white;
+}
+
+img {
+  height: 150px;
+}
+
+.grid-kartu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding-top: 20px;
 }
